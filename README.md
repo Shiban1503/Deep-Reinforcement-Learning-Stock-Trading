@@ -24,7 +24,7 @@ The model was tested on Apple stock data from 2015-2022:
 ## How to Run the Project
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/Deep-Reinforcement-Learning-Stock-Trading.git
+   git clone https://github.com/desi-lad/Deep-Reinforcement-Learning-Stock-Trading.git
    cd Deep-Reinforcement-Learning-Stock-Trading
 
 pip install -r requirements.txt
