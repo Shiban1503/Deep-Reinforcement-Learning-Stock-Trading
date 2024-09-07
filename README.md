@@ -33,7 +33,7 @@ The model was tested on Apple stock data from 2015-2022:
     ```
 3. Run the Jupyter Notebook:
     ```bash
-    jupyter notebook 2023_7COSC012W_CW1_LAL.ipynb
+    DRL-Stock-Trading.ipynb
     ```
 
 ## License
