@@ -23,13 +23,18 @@ The model was tested on Apple stock data from 2015-2022:
 
 ## How to Run the Project
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/desi-lad/Deep-Reinforcement-Learning-Stock-Trading.git
-   cd Deep-Reinforcement-Learning-Stock-Trading
-
-pip install -r requirements.txt
-
-jupyter notebook DRL-Stock-Trading.ipynb
+    ```bash
+    git clone https://github.com/yourusername/Deep-Reinforcement-Learning-Stock-Trading.git
+    cd Deep-Reinforcement-Learning-Stock-Trading
+    ```
+2. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Run the Jupyter Notebook:
+    ```bash
+    jupyter notebook 2023_7COSC012W_CW1_LAL.ipynb
+    ```
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
