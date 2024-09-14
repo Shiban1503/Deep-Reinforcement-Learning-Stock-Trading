@@ -1,4 +1,4 @@
-# Deep-Reinforcement-Learning-Stock-Trading
+# Deep-Reinforcement-Learning-For-Stock-Trading
 Enhancing Investment Decisions with Deep Reinforcement Learning
 
 ## Introduction
