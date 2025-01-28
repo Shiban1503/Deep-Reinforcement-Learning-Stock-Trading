@@ -98,23 +98,22 @@ pip install -r requirements.txt
 
 ## Usage
 
-Configure your parameters in `config.yaml`:
-```yaml
-model:
-  learning_rate: 0.001
-  batch_size: 32
-  memory_size: 1000
-```
+To use this project:
 
-Run the training process:
-```bash
-python train.py --config config.yaml
-```
+1. Prepare your input data in the `data/` folder.
+   - For example, include a CSV file with historical stock data like `AAPL.csv`.
 
-Evaluate the trained model:
-```bash
-python evaluate.py --model_path models/best_model.h5
-```
+2. Train the model by running:
+   ```bash
+   python train.py
+   ```
+
+3. Evaluate the model using:
+   ```bash
+   python evaluate.py --model_path models/best_model.h5
+   ```
+
+4. Visualize results with the provided Jupyter notebooks in the `notebooks/` directory.
 
 ## Project Structure
 ```
@@ -130,27 +129,32 @@ python evaluate.py --model_path models/best_model.h5
 │   ├── environment/
 │   └── utils/
 ├── tests/
-├── config.yaml
 ├── requirements.txt
 └── README.md
 ```
 
 ## Contributing
 
-1. Fork the repository
-2. Create your feature branch:
+Contributions are welcome! Here's how you can get involved:
+
+1. Fork the repository on GitHub.
+2. Clone your forked repository:
+   ```bash
+   git clone https://github.com/yourusername/Deep-Reinforcement-Learning-Stock-Trading.git
+   ```
+3. Create a new branch for your feature or fix:
    ```bash
    git checkout -b feature/AmazingFeature
    ```
-3. Commit your changes:
+4. Make your changes and commit them:
    ```bash
-   git commit -m 'Add some AmazingFeature'
+   git commit -m "Add AmazingFeature"
    ```
-4. Push to the branch:
+5. Push your changes to your forked repository:
    ```bash
    git push origin feature/AmazingFeature
    ```
-5. Open a Pull Request
+6. Open a pull request in the original repository, describing your changes.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
