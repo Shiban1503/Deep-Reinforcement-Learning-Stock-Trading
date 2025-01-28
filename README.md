@@ -86,7 +86,7 @@ The system uses deep reinforcement learning to make automated trading decisions 
 
 ## Architecture
 ```text
- Input Layer (State) → Dense Layers → Dueling DQN → Output Layer (Actions)
+Input Layer (State) → Dense Layers → Dueling DQN → Output Layer (Actions)
 
 State Space:
 
