@@ -36,8 +36,7 @@ The model was tested on Apple stock data from 2015-2022:
     DRL-Stock-Trading.ipynb
     ```
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 # Deep Reinforcement Learning For Stock Trading
@@ -87,3 +86,6 @@ The system uses deep reinforcement learning to make automated trading decisions 
 ## Architecture
 ```text
 Input Layer (State) → Dense Layers → Dueling DQN → Output Layer (Actions)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
